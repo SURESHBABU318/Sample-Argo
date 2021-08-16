@@ -6,7 +6,7 @@ metadata:
     storageclass.beta.kubernetes.io/is-default-class: "true"
 provisioner: kubernetes.io/glusterfs
 parameters:
-  resturl: "http://172.16.16.200:8080"
+  resturl: "http://10.0.1.160:8080"
   restuser: "admin"
   restuserkey: "secretpassword"
   volumetype: "replicate:2"
